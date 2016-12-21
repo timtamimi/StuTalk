@@ -1035,7 +1035,7 @@ XSL(T) is a fairly simple syntax. The exact syntax of your XET file will vastly 
 
 For the sake of having an example, this is what part of ours looks like:
 
-<table>
+```<table>
 
 <tbody>
 
@@ -1114,10 +1114,13 @@ For the sake of having an example, this is what part of ours looks like:
 </tbody>
 
 </table>
+```
+
 
 Let’s drill down into one particular field…
 
-<table>
+
+```<table>
 
 <tbody>
 
@@ -1138,6 +1141,7 @@ Let’s drill down into one particular field…
 </tbody>
 
 </table>
+```
 
 Line 1 contains the tag <sitsID> which is the way that Azorus expects this piece of information to be labelled.
 
@@ -1147,7 +1151,7 @@ Line 3 closes the tag <sitsID>
 
 You can use this format to create additional conversions, for example, the lines below transcribe the country of domicile code which is normally labelled STU_CODC in the STU table in SITS, into a field called ‘countryOfDomicileCode’:
 
-<table>
+```<table>
 
 <tbody>
 
@@ -1168,10 +1172,11 @@ You can use this format to create additional conversions, for example, the lines
 </tbody>
 
 </table>
+```
 
 ...and here’s another example in which we transcribe the Gender field to “genderCode”:
 
-<table>
+```<table>
 
 <tbody>
 
@@ -1192,6 +1197,7 @@ You can use this format to create additional conversions, for example, the lines
 </tbody>
 
 </table>
+```
 
 **Step 2**. Upload the file to SITS.
 
